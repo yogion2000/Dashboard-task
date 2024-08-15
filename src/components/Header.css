@@ -1,0 +1,26 @@
+.headerNavItems {
+  justify-content: start;
+  flex-wrap:nowrap !important;
+}
+.dropdown-menu[data-bs-popper] {
+  top: 130% !important;
+  left: -142px !important;
+  margin-top: var(--bs-dropdown-spacer);
+}
+.searchBar {
+  min-width: 500px;
+}
+@media only screen and (max-width: 768px) {
+    .searchBar {
+        min-width:auto;
+      }
+}
+.navbar-brand{
+    font-size: 14px !important;
+}
+.headerBar{
+    display: flex !important;
+}
+.dashBoardHeading{
+    font-weight:700 !important;
+}

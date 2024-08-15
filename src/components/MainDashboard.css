@@ -1,0 +1,182 @@
+main {
+  background-color: #f0f5fa !important;
+}
+.dashboardSection {
+  padding: 60px 40px !important;
+  /* height: 100vh; */
+}
+.dashboardTitle {
+  display: flex;
+  justify-content: space-between;
+}
+.topWidgetBtn {
+  background-color: #ffffff;
+  border: 0.5px solid black;
+  padding: 5px 10px !important;
+  margin: 0px 5px 0px 0px !important;
+}
+.topWidgetBtnSplit {
+  background-color: #ffffff;
+  border: 0.5px solid black !important;
+  padding: 5px 10px !important;
+}
+.topWidgetBtn:hover {
+  background-color: #e6e3e3;
+  border: 0.5px solid black;
+}
+.topWidgetBtnSplit:hover {
+  background-color: #e6e3e3;
+  border: 0.5px solid black;
+}
+.material-icons {
+  font-size: 15px !important;
+}
+.dropdown-menu {
+  left: -132px !important;
+}
+.dropdown-toggle::after {
+  margin-left: 5px !important;
+  vertical-align: 0.22em !important;
+}
+
+/* MainDashboard.css */
+
+.mainContainer {
+  /* display: flex; */
+  position: relative;
+  overflow: hidden; /* Ensure the sidebar stays within bounds */
+}
+
+.sidebar {
+  position: absolute;
+  top: 0;
+  right: -30%; /* Initially hide the sidebar */
+  width: 30%;
+  height: 100vh;
+  background-color: #f8f9fa;
+  transition: right 0.3s ease; /* Smooth transition */
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+  /* padding: 20px; */
+  z-index: 1000; /* Ensure it overlays other content */
+}
+
+.sidebar-open {
+  right: 0; /* Move the sidebar into view */
+}
+
+.dashboardSection {
+  flex: 1;
+  padding: 20px;
+}
+
+.dashboardTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.topWidgetBtn {
+  margin-right: 5px;
+}
+
+.topWidgetBtnSplit {
+  border-left: 1px solid #ccc;
+}
+.sider-head {
+  background-color: #14147d !important;
+  width: 100%;
+  padding: 10px 20px !important;
+  display: flex;
+  justify-content: space-between;
+}
+.sider-head h6 {
+  color: white !important;
+  margin: 0px !important;
+}
+.closeSidebarBtn {
+  background: none !important;
+  border: none;
+  color: white;
+}
+.sliderBody {
+  padding: 10px 20px !important;
+}
+
+.tabs {
+  display: flex;
+  /* margin-bottom: 20px; */
+}
+
+.tab {
+  flex: 1;
+  padding: 10px;
+  cursor: pointer;
+  background-color: white !important;
+  border: none;
+  text-align: center;
+}
+
+.tab.active {
+  background-color: #fff;
+  border-bottom: 2px solid #14147d;
+  font-weight: bold;
+}
+
+.tabContent {
+  padding: 10px;
+  /* background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-top: none; */
+}
+.tab-widgets {
+  display: flex;
+  padding: 2px 10px;
+  border: 1px solid black;
+  margin-top: 10px !important;
+  font-size: 13px !important;
+}
+.tab-widgets > p {
+  margin: 0px 5px !important;
+}
+.sidebar-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 10px 10px;
+}
+.btn-confirm {
+  background-color: #14147d;
+  color: white;
+}
+.btn-confirm:hover {
+  background: #14147d !important;
+  color: white;
+}
+.btn-cancel {
+  border: 1px solid #14147d !important;
+  color: #14147d;
+}
+.widget-bg {
+  background-color: white;
+  padding: 20px !important;
+  border-radius: 10px;
+  margin-top: 10px !important;
+  margin-right: 20px !important;
+}
+.widget-bg p {
+  margin-bottom: 0px !important;
+}
+.widget-bg h6 {
+  font-weight: 700;
+}
+.widgetsList > h6 {
+  font-weight: 700;
+  margin-top: 20px;
+}
+.widgets-description {
+  /* text-align: center; */
+  display: flex;
+}
+.widgets-description > img {
+  width: 40%;
+}
