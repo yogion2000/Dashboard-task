@@ -13,6 +13,6 @@
 **Live link:** https://dashboard-task-ecru.vercel.app/
 
 
-if the live link shows as **dangrous site**. Kindly click the **Details** and give a click on  _Only visit **this unsafe site** if you're sure you understand the risks._ in Chrome
+if the live link shows as **dangrous site**. Kindly click the **Details** and give a click on  _Only visit **this unsafe site** if you're sure you understand the risks._ **In Chrome**
 ![image](https://github.com/user-attachments/assets/dc91ee3e-8f78-4cfc-968a-e6fb8b2c8c97)
 
