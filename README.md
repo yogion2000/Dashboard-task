@@ -8,7 +8,7 @@
 
 **Run the Project:** After the dependencies are installed, use npm start to start the development server and see the project live in your browser.
 
-**Documentationn How it Works:** https://scribehow.com/shared/How_to_Add_Widgets_in_Cloud_Dashboard__a0l_qHkeQ3qJOHp7FEZX_w
+**Documentation How it Works:** https://scribehow.com/shared/How_to_Add_Widgets_in_Cloud_Dashboard__a0l_qHkeQ3qJOHp7FEZX_w
 
 **Live link:** https://dashboard-task-ecru.vercel.app/
 
